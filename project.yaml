@@ -1,0 +1,73 @@
+# .project metadata for KubeStellar
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+# TODO: Set identity_type under legal (has_dco, has_cla)
+# TODO: Add package_managers if distributed via registries
+
+schema_version: "1.0.0"
+slug: "kubestellar"
+name: "KubeStellar"
+description: "KubeStellar - a flexible solution for challenges associated with multi-cluster configuration management for edge, multi-cloud, and hybrid cloud"
+type: "project"
+project_lead: "clubanderson" # TODO: AUTO-DETECTED — please verify
+slack_channels: # TODO: AUTO-DETECTED — please verify the channel(s) below
+  - name: "#kubestellar-dev"
+    link: "http://slack.k8s.io/"
+    primary: true
+  - name: "#certificate-of-origin"
+  - name: "#kubestellar"
+
+maturity_log:
+  - phase: "sandbox"
+    date: "2023-12-19T00:00:00Z"
+    issue: "https://github.com/cncf/sandbox/issues/32" # TODO: AUTO-DETECTED — please verify
+
+repositories:
+  - "https://github.com/kubestellar/kubestellar"
+
+website: "https://kubestellar.io"
+
+artwork: "https://landscape.cncf.io/logos/kubestellar.svg"
+
+adopters:
+  path: "https://github.com/kubestellar/kubestellar/blob/main/ADOPTERS.md"
+
+
+# TODO: Add package manager identifiers if your project is distributed via registries
+# package_managers:
+#   docker: "kubestellar/kubestellar"
+
+social:
+  twitter: "https://twitter.com/kubestellar"
+
+security:
+  policy:
+    path: "https://github.com/kubestellar/kubestellar/blob/main/SECURITY.md"
+  contact:
+    advisory_url: "https://github.com/kubestellar/kubestellar/security/advisories/new"
+
+governance:
+  contributing:
+    path: "https://github.com/kubestellar/kubestellar/blob/main/CONTRIBUTING.md"
+  code_of_conduct:
+    path: "https://github.com/kubestellar/kubestellar/blob/main/CODE_OF_CONDUCT.md"
+
+legal:
+  license:
+    path: "https://github.com/kubestellar/kubestellar/blob/main/LICENSE"
+  identity_type:
+    has_dco: true
+    has_cla: false
+    dco_url:
+      path: "https://developercertificate.org/"
+
+documentation:
+  readme:
+    path: "https://github.com/kubestellar/kubestellar/blob/main/README.md"
+
+landscape:
+  category: "Orchestration & Management"
+  subcategory: "Scheduling & Orchestration"
+
+# CLOMonitor Score: 98/100
+# Documentation: 100 | License: 100 | Best Practices: 100 | Security: 91
