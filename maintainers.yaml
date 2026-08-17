@@ -9,10 +9,9 @@ maintainers:
     teams:
       - name: "project-maintainers"
         members:
-          - clubanderson
           - MikeSpreitzer
-          - ezrasilvera
+          - KPRoche
           - pdettori
+          - clubanderson
           - dumb0002
           - waltforme
-          - mavrick-1
