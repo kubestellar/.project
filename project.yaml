@@ -27,7 +27,7 @@ repositories:
 
 website: "https://kubestellar.io"
 
-artwork: "https://landscape.cncf.io/logos/kubestellar.svg"
+artwork: "https://github.com/cncf/artwork/tree/main/projects/kubestellar"
 
 adopters:
   path: "https://github.com/kubestellar/kubestellar/blob/main/ADOPTERS.md"
